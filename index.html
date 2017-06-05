@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>owl carrosel</title>
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+</head>
+<body>
+
+<div class="owl-carousel owl-theme">
+
+   <img src="img/01.jpg" alt="imagem">
+   <img src="img/02.png" alt="imagem">
+   <img src="img/03.jpg" alt="imagem">
+   <img src="img/04.jpg" alt="imagem">
+   <img src="img/05.jpg" alt="imagem">
+   <img src="img/06.jpg" alt="imagem">
+   <img src="img/07.jpg" alt="imagem">
+   <img src="img/08.jpg" alt="imagem">
+	<img src="img/09.jpg" alt="imagem">
+
+</div>
+<script>
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+</body>
+</html>
